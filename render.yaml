@@ -1,0 +1,6 @@
+services:
+  - type: static_site
+    name: zeller1-static-site
+    env: static
+    staticPublishPath: .
+    buildCommand: ""
